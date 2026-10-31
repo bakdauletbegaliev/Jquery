@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Illustrated sunrise">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fcbd88"/><stop offset="1" stop-color="#ffe6bf"/></linearGradient></defs>
+<rect width="640" height="360" rx="20" fill="url(#sky)"/>
+<circle cx="420" cy="110" r="59" fill="#fff4cb"/>
+<path d="M0 245 155 92 308 255 445 118 640 280V360H0Z" fill="#93abbb"/>
+<path d="M0 282 118 191 247 286 385 205 510 291 640 221V360H0Z" fill="#4f788d"/>
+<path d="M0 318q170-47 340 0t300-6v48H0Z" fill="#2e5975"/>
+<path d="m155 92 41 42-27-8-23 21-36-10Z" fill="#fff6df" opacity=".8"/>
+<path d="m445 118 32 38-29-9-19 19-24-14Z" fill="#fff6df" opacity=".7"/>
+</svg>

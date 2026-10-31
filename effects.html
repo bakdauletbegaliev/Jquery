@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Effects | jQuery Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="jQuery Lab home"><span class="logo-mark">jQ</span> jQuery Lab</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Basics</a>
+<a class="nav-link active" href="effects.html">Effects</a>
+<a class="nav-link" href="dom.html">DOM</a>
+<a class="nav-link" href="animations.html">Animations</a>
+<a class="nav-link" href="project.html">Mini Project</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">ASSIGNMENT 06 <span class="dot"></span> Part 2</p>
+        <h1>jQuery Effects</h1>
+        <p class="hero-description">Three simple demonstrations of visibility, fading and sliding.</p>
+        <div class="hero-tags"><span>jQuery 3.7.1</span><span>HTML + CSS + JS</span><span>Bakdaulet Begaliev</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="hero-art-inner"><span>$</span><span>( )</span><small>click · change · animate</small></div></div>
+    </section>
+    <div class="tasks">
+      <section class="task-card" id="task-2">
+        <div class="task-heading">
+          <span class="task-number">TASK 02</span>
+          <div><h2>Visibility methods</h2><p>Hide, show or toggle a paragraph.</p></div>
+        </div>
+        <div class="demo"><div class="demo-output"><p id="visibilityText">Hello! This paragraph can appear and disappear.</p></div>
+<div class="actions"><button id="hideText" class="btn primary" type="button">Hide</button><button id="showText" class="btn secondary" type="button">Show</button><button id="toggleText" class="btn secondary" type="button">Toggle</button></div>
+<p class="helper">Methods used: <code>.hide()</code>, <code>.show()</code>, <code>.toggle()</code></p></div>
+      </section>
+<section class="task-card" id="task-3">
+        <div class="task-heading">
+          <span class="task-number">TASK 03</span>
+          <div><h2>Fade methods</h2><p>Show and hide an image smoothly.</p></div>
+        </div>
+        <div class="demo"><div class="image-stage"><img id="fadeImage" src="assets/sunrise.svg" alt="Illustrated sunrise over mountains"></div>
+<div class="actions"><button id="fadeOut" class="btn primary" type="button">Fade Out</button><button id="fadeIn" class="btn secondary" type="button">Fade In</button><button id="fadeToggle" class="btn secondary" type="button">Fade Toggle</button></div>
+<p class="helper">Methods used: <code>.fadeOut()</code>, <code>.fadeIn()</code>, <code>.fadeToggle()</code></p></div>
+      </section>
+<section class="task-card" id="task-4">
+        <div class="task-heading">
+          <span class="task-number">TASK 04</span>
+          <div><h2>Slide methods</h2><p>Open or close the collapsible information panel.</p></div>
+        </div>
+        <div class="demo"><div class="panel-title">About jQuery effects</div>
+<div id="slidePanel" class="slide-panel">Sliding effects change the height of an element. They are useful for menus, FAQs and content panels.</div>
+<div class="actions"><button id="slideUp" class="btn primary" type="button">Slide Up</button><button id="slideDown" class="btn secondary" type="button">Slide Down</button><button id="slideToggle" class="btn secondary" type="button">Slide Toggle</button></div>
+<p class="helper">Methods used: <code>.slideUp()</code>, <code>.slideDown()</code>, <code>.slideToggle()</code></p></div>
+      </section>
+    </div>
+    <footer class="footer">
+      <span>Assignment #6 · jQuery selectors, effects and animations</span>
+      <span>Bakdaulet Begaliev · SE-2526</span>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/effects.js"></script>
+</body>
+</html>

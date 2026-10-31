@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation | jQuery Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="jQuery Lab home"><span class="logo-mark">jQ</span> jQuery Lab</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Basics</a>
+<a class="nav-link" href="effects.html">Effects</a>
+<a class="nav-link active" href="dom.html">DOM</a>
+<a class="nav-link" href="animations.html">Animations</a>
+<a class="nav-link" href="project.html">Mini Project</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">ASSIGNMENT 06 <span class="dot"></span> Part 3</p>
+        <h1>DOM Manipulation</h1>
+        <p class="hero-description">Work with lists, HTML attributes and live form values using jQuery.</p>
+        <div class="hero-tags"><span>jQuery 3.7.1</span><span>HTML + CSS + JS</span><span>Bakdaulet Begaliev</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="hero-art-inner"><span>$</span><span>( )</span><small>click · change · animate</small></div></div>
+    </section>
+    <div class="tasks">
+      <section class="task-card" id="task-5">
+        <div class="task-heading">
+          <span class="task-number">TASK 05</span>
+          <div><h2>Add &amp; remove elements</h2><p>Add items at the start or end of a list, or remove the last one.</p></div>
+        </div>
+        <div class="demo"><ul id="itemList" class="item-list"><li>Item 1</li><li>Item 2</li></ul>
+<div class="actions"><button id="appendItem" class="btn primary" type="button">Add Item</button><button id="prependItem" class="btn secondary" type="button">Add First</button><button id="removeItem" class="btn secondary" type="button">Remove Last</button></div>
+<p class="helper">Methods used: <code>.append()</code>, <code>.prepend()</code>, <code>.remove()</code></p></div>
+      </section>
+<section class="task-card" id="task-6">
+        <div class="task-heading">
+          <span class="task-number">TASK 06</span>
+          <div><h2>Modify attributes</h2><p>Change an image source and update a link address.</p></div>
+        </div>
+        <div class="demo"><div class="attribute-layout"><img id="changePicture" src="assets/sunrise.svg" alt="Landscape that changes when a button is pressed"><div class="attribute-info"><p id="pictureCaption" class="caption-title">Current image: Sunrise</p><button id="changeImage" class="btn primary" type="button">Change image</button><p class="link-line"><a id="changingLink" href="https://jquery.com/" target="_blank" rel="noopener noreferrer">Visit jQuery website</a></p><button id="changeLink" class="btn secondary" type="button">Change link</button></div></div>
+<p class="helper">Method used: <code>.attr("src", ...)</code> and <code>.attr("href", ...)</code></p></div>
+      </section>
+<section class="task-card" id="task-7">
+        <div class="task-heading">
+          <span class="task-number">TASK 07</span>
+          <div><h2>Live form input</h2><p>Type a name and email and see the result immediately.</p></div>
+        </div>
+        <div class="demo"><form id="liveForm" class="simple-form"><label for="nameInput">Name</label><input id="nameInput" type="text" placeholder="Enter your name" autocomplete="off"><label for="emailInput">Email</label><input id="emailInput" type="email" placeholder="Enter your email" autocomplete="off"></form>
+<div class="live-result"><p><strong>Name:</strong> <span id="nameOutput">—</span></p><p><strong>Email:</strong> <span id="emailOutput">—</span></p></div>
+<p class="helper">Methods used: <code>.val()</code> to read, <code>.text()</code> to display</p></div>
+      </section>
+    </div>
+    <footer class="footer">
+      <span>Assignment #6 · jQuery selectors, effects and animations</span>
+      <span>Bakdaulet Begaliev · SE-2526</span>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/dom.js"></script>
+</body>
+</html>

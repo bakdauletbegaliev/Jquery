@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Illustrated ocean">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#83c8ee"/><stop offset="1" stop-color="#ddf7ff"/></linearGradient></defs>
+<rect width="640" height="360" rx="20" fill="url(#sky)"/>
+<circle cx="478" cy="91" r="49" fill="#fff4ce"/>
+<path d="M0 197q80-20 160 0t160 0 160 0 160 0v163H0Z" fill="#63b8d1"/>
+<path d="M0 245q80-20 160 0t160 0 160 0 160 0v115H0Z" fill="#3295bf"/>
+<path d="M0 303q80-17 160 0t160 0 160 0 160 0v57H0Z" fill="#177ca3"/>
+<path d="M0 218q80-20 160 0t160 0 160 0 160 0" fill="none" stroke="#d1f4fb" stroke-width="7"/>
+<path d="M48 95q24-13 48 0m8-18q20-9 40 0" fill="none" stroke="#efffff" stroke-width="6" stroke-linecap="round"/>
+</svg>

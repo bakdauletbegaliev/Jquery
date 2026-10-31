@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Basics | jQuery Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="jQuery Lab home"><span class="logo-mark">jQ</span> jQuery Lab</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav-link active" href="index.html">Basics</a>
+<a class="nav-link" href="effects.html">Effects</a>
+<a class="nav-link" href="dom.html">DOM</a>
+<a class="nav-link" href="animations.html">Animations</a>
+<a class="nav-link" href="project.html">Mini Project</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">ASSIGNMENT 06 <span class="dot"></span> Part 1</p>
+        <h1>jQuery Basics</h1>
+        <p class="hero-description">Start with document ready, then change text, HTML and CSS using simple selectors.</p>
+        <div class="hero-tags"><span>jQuery 3.7.1</span><span>HTML + CSS + JS</span><span>Bakdaulet Begaliev</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="hero-art-inner"><span>$</span><span>( )</span><small>click · change · animate</small></div></div>
+    </section>
+    <div class="tasks">
+      <section class="task-card" id="task-0">
+        <div class="task-heading">
+          <span class="task-number">TASK 00</span>
+          <div><h2>jQuery setup</h2><p>Load jQuery from a CDN and check that the page is ready.</p></div>
+        </div>
+        <div class="demo"><div class="inline-status"><span class="status-dot"></span><span id="readyStatus">Checking jQuery...</span></div>
+<p class="helper">Open DevTools (F12) → Console. You should see <code>jQuery is ready!</code></p></div>
+      </section>
+<section class="task-card" id="task-1">
+        <div class="task-heading">
+          <span class="task-number">TASK 01</span>
+          <div><h2>Selectors &amp; CSS</h2><p>Use an ID, a class and a tag selector to update the page.</p></div>
+        </div>
+        <div class="demo"><div class="example-grid">
+  <div class="example-box"><span class="example-label">ID selector</span><p id="idExample">Original text</p></div>
+  <div class="example-box"><span class="example-label">Class selector</span><p class="classExample">Original HTML</p></div>
+  <div class="example-box"><span class="example-label">Tag selector</span><h3>Original heading color</h3></div>
+</div>
+<div class="actions"><button id="changeSelectors" class="btn primary" type="button">Run selectors</button><button id="resetSelectors" class="btn secondary" type="button">Reset</button></div>
+<p class="helper">Methods used: <code>.text()</code>, <code>.html()</code>, <code>.css()</code></p></div>
+      </section>
+    </div>
+    <footer class="footer">
+      <span>Assignment #6 · jQuery selectors, effects and animations</span>
+      <span>Bakdaulet Begaliev · SE-2526</span>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/basics.js"></script>
+</body>
+</html>

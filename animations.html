@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Animations | jQuery Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="jQuery Lab home"><span class="logo-mark">jQ</span> jQuery Lab</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Basics</a>
+<a class="nav-link" href="effects.html">Effects</a>
+<a class="nav-link" href="dom.html">DOM</a>
+<a class="nav-link active" href="animations.html">Animations</a>
+<a class="nav-link" href="project.html">Mini Project</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">ASSIGNMENT 06 <span class="dot"></span> Part 4</p>
+        <h1>jQuery Animations</h1>
+        <p class="hero-description">Create smooth movements with the simple .animate() method.</p>
+        <div class="hero-tags"><span>jQuery 3.7.1</span><span>HTML + CSS + JS</span><span>Bakdaulet Begaliev</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="hero-art-inner"><span>$</span><span>( )</span><small>click · change · animate</small></div></div>
+    </section>
+    <div class="tasks">
+      <section class="task-card" id="task-8">
+        <div class="task-heading">
+          <span class="task-number">TASK 08</span>
+          <div><h2>Basic animation</h2><p>Move a square to the right and increase its size.</p></div>
+        </div>
+        <div class="demo"><div class="animation-stage"><div id="basicBox" class="moving-box"></div></div>
+<div class="actions"><button id="basicAnimate" class="btn primary" type="button">Animate</button><button id="basicReset" class="btn secondary" type="button">Reset</button></div>
+<p class="helper">Method used: <code>.animate({ left: 140, width: 120, height: 120 })</code></p></div>
+      </section>
+<section class="task-card" id="task-9">
+        <div class="task-heading">
+          <span class="task-number">TASK 09</span>
+          <div><h2>Sequential animations</h2><p>Move right → move down → shrink → return to the starting point.</p></div>
+        </div>
+        <div class="demo"><div class="animation-stage"><div id="sequenceBox" class="moving-box coral"></div></div>
+<div class="actions"><button id="sequenceAnimate" class="btn primary" type="button">Play sequence</button><button id="sequenceReset" class="btn secondary" type="button">Reset</button></div>
+<p class="helper">Four <code>.animate()</code> calls run one after another.</p></div>
+      </section>
+<section class="task-card" id="task-10">
+        <div class="task-heading">
+          <span class="task-number">TASK 10</span>
+          <div><h2>Combined animation</h2><p>Change opacity, size and position at the same time.</p></div>
+        </div>
+        <div class="demo"><div class="animation-stage"><div id="combinedBox" class="moving-box green"></div></div>
+<div class="actions"><button id="combinedAnimate" class="btn primary" type="button">Animate together</button><button id="combinedReset" class="btn secondary" type="button">Reset</button></div>
+<p class="helper">One <code>.animate()</code> call changes several CSS properties.</p></div>
+      </section>
+    </div>
+    <footer class="footer">
+      <span>Assignment #6 · jQuery selectors, effects and animations</span>
+      <span>Bakdaulet Begaliev · SE-2526</span>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
